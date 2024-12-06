@@ -1,17 +1,22 @@
+import styled from "styled-components";
 import "./App.css";
-import IconesHeader from "./componentes/IconesHeader";
-import Logo from "./componentes/Logo";
-import OpcoesHeader from "./componentes/OpcoesHeader";
+import Header from "./componentes/Header";
+
+const AppContainer = styled.div`
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(90deg, #002f52 35%, #326589 165%);
+
+  li {
+    list-style: none;
+  }
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Logo></Logo>
-        <OpcoesHeader></OpcoesHeader>
-        <IconesHeader></IconesHeader>
-      </header>
-    </div>
+    <AppContainer>
+      <Header />
+    </AppContainer>
   );
 }
 

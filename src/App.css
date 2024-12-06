@@ -1,11 +1,1 @@
-.App {
-  width: 100vw;
-  height: 100vh;
-  background-image: linear-gradient(90deg, #002f52 35%, #326589 165%);
-}
 
-.App-header {
-  background-color: #fff;
-  display: flex;
-  justify-content: space-between;
-}
